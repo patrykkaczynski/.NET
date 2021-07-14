@@ -1,0 +1,34 @@
+C:\Users\patry\OneDrive\Pulpit\Nowy folder (2)\PatrykKaczynskiLab1ZadDom\PatrykKaczynskiLab1ZadDom\bin\Debug\net5.0-windows\PatrykKaczynskiLab1ZadDom.exe
+C:\Users\patry\OneDrive\Pulpit\Nowy folder (2)\PatrykKaczynskiLab1ZadDom\PatrykKaczynskiLab1ZadDom\bin\Debug\net5.0-windows\PatrykKaczynskiLab1ZadDom.deps.json
+C:\Users\patry\OneDrive\Pulpit\Nowy folder (2)\PatrykKaczynskiLab1ZadDom\PatrykKaczynskiLab1ZadDom\bin\Debug\net5.0-windows\PatrykKaczynskiLab1ZadDom.runtimeconfig.json
+C:\Users\patry\OneDrive\Pulpit\Nowy folder (2)\PatrykKaczynskiLab1ZadDom\PatrykKaczynskiLab1ZadDom\bin\Debug\net5.0-windows\PatrykKaczynskiLab1ZadDom.runtimeconfig.dev.json
+C:\Users\patry\OneDrive\Pulpit\Nowy folder (2)\PatrykKaczynskiLab1ZadDom\PatrykKaczynskiLab1ZadDom\bin\Debug\net5.0-windows\PatrykKaczynskiLab1ZadDom.dll
+C:\Users\patry\OneDrive\Pulpit\Nowy folder (2)\PatrykKaczynskiLab1ZadDom\PatrykKaczynskiLab1ZadDom\bin\Debug\net5.0-windows\ref\PatrykKaczynskiLab1ZadDom.dll
+C:\Users\patry\OneDrive\Pulpit\Nowy folder (2)\PatrykKaczynskiLab1ZadDom\PatrykKaczynskiLab1ZadDom\bin\Debug\net5.0-windows\PatrykKaczynskiLab1ZadDom.pdb
+C:\Users\patry\OneDrive\Pulpit\Nowy folder (2)\PatrykKaczynskiLab1ZadDom\PatrykKaczynskiLab1ZadDom\obj\Debug\net5.0-windows\PatrykKaczynskiLab1ZadDom.Properties.Resources.resources
+C:\Users\patry\OneDrive\Pulpit\Nowy folder (2)\PatrykKaczynskiLab1ZadDom\PatrykKaczynskiLab1ZadDom\obj\Debug\net5.0-windows\PatrykKaczynskiLab1ZadDom.csproj.GenerateResource.cache
+C:\Users\patry\OneDrive\Pulpit\Nowy folder (2)\PatrykKaczynskiLab1ZadDom\PatrykKaczynskiLab1ZadDom\obj\Debug\net5.0-windows\PatrykKaczynskiLab1ZadDom.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\patry\OneDrive\Pulpit\Nowy folder (2)\PatrykKaczynskiLab1ZadDom\PatrykKaczynskiLab1ZadDom\obj\Debug\net5.0-windows\PatrykKaczynskiLab1ZadDom.AssemblyInfoInputs.cache
+C:\Users\patry\OneDrive\Pulpit\Nowy folder (2)\PatrykKaczynskiLab1ZadDom\PatrykKaczynskiLab1ZadDom\obj\Debug\net5.0-windows\PatrykKaczynskiLab1ZadDom.AssemblyInfo.cs
+C:\Users\patry\OneDrive\Pulpit\Nowy folder (2)\PatrykKaczynskiLab1ZadDom\PatrykKaczynskiLab1ZadDom\obj\Debug\net5.0-windows\PatrykKaczynskiLab1ZadDom.csproj.CoreCompileInputs.cache
+C:\Users\patry\OneDrive\Pulpit\Nowy folder (2)\PatrykKaczynskiLab1ZadDom\PatrykKaczynskiLab1ZadDom\obj\Debug\net5.0-windows\PatrykKaczynskiLab1ZadDom.dll
+C:\Users\patry\OneDrive\Pulpit\Nowy folder (2)\PatrykKaczynskiLab1ZadDom\PatrykKaczynskiLab1ZadDom\obj\Debug\net5.0-windows\ref\PatrykKaczynskiLab1ZadDom.dll
+C:\Users\patry\OneDrive\Pulpit\Nowy folder (2)\PatrykKaczynskiLab1ZadDom\PatrykKaczynskiLab1ZadDom\obj\Debug\net5.0-windows\PatrykKaczynskiLab1ZadDom.pdb
+C:\Users\patry\OneDrive\Pulpit\Nowy folder (2)\PatrykKaczynskiLab1ZadDom\PatrykKaczynskiLab1ZadDom\obj\Debug\net5.0-windows\PatrykKaczynskiLab1ZadDom.genruntimeconfig.cache
+C:\Users\patry\OneDrive\Pulpit\Nowy folder (2)\PatrykKaczynskiLab1ZadDom\PatrykKaczynskiLab1ZadDom\obj\Debug\net5.0-windows\PatrykKaczynskiLab1ZadDom.FormMain.resources
+C:\Users\patry\OneDrive\Pulpit\Nowy folder (2)\PatrykKaczynskiLab1ZadDom\PatrykKaczynskiLab1ZadDom\obj\Debug\net5.0-windows\PatrykKaczynskiLab1ZadDom.FormNew.resources
+C:\Users\patry\OneDrive\Pulpit\Nowy folder (2)\PatrykKaczynskiLab1ZadDom\PatrykKaczynskiLab1ZadDom\obj\Debug\net5.0-windows\PatrykKaczynskiLab1ZadDom.FormGameRules.resources
+D:\Programowanie\Kredek\patryk_kaczynski_cpc2021-1\Laboratorium1_PracaDomowa\PatrykKaczynskiLab1ZadDom\bin\Debug\net5.0-windows\PatrykKaczynskiLab1ZadDom.exe
+D:\Programowanie\Kredek\patryk_kaczynski_cpc2021-1\Laboratorium1_PracaDomowa\PatrykKaczynskiLab1ZadDom\obj\Debug\net5.0-windows\PatrykKaczynskiLab1ZadDom.csprojAssemblyReference.cache
+D:\Programowanie\Kredek\patryk_kaczynski_cpc2021-1\Laboratorium1_PracaDomowa\PatrykKaczynskiLab1ZadDom\obj\Debug\net5.0-windows\PatrykKaczynskiLab1ZadDom.FormMain.resources
+D:\Programowanie\Kredek\patryk_kaczynski_cpc2021-1\Laboratorium1_PracaDomowa\PatrykKaczynskiLab1ZadDom\obj\Debug\net5.0-windows\PatrykKaczynskiLab1ZadDom.FormGameRules.resources
+D:\Programowanie\Kredek\patryk_kaczynski_cpc2021-1\Laboratorium1_PracaDomowa\PatrykKaczynskiLab1ZadDom\obj\Debug\net5.0-windows\PatrykKaczynskiLab1ZadDom.FormNew.resources
+D:\Programowanie\Kredek\patryk_kaczynski_cpc2021-1\Laboratorium1_PracaDomowa\PatrykKaczynskiLab1ZadDom\obj\Debug\net5.0-windows\PatrykKaczynskiLab1ZadDom.Properties.Resources.resources
+D:\Programowanie\Kredek\patryk_kaczynski_cpc2021-1\Laboratorium1_PracaDomowa\PatrykKaczynskiLab1ZadDom\obj\Debug\net5.0-windows\PatrykKaczynskiLab1ZadDom.csproj.GenerateResource.cache
+D:\Programowanie\Kredek\patryk_kaczynski_cpc2021-1\Laboratorium1_PracaDomowa\PatrykKaczynskiLab1ZadDom\obj\Debug\net5.0-windows\PatrykKaczynskiLab1ZadDom.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programowanie\Kredek\patryk_kaczynski_cpc2021-1\Laboratorium1_PracaDomowa\PatrykKaczynskiLab1ZadDom\obj\Debug\net5.0-windows\PatrykKaczynskiLab1ZadDom.AssemblyInfoInputs.cache
+D:\Programowanie\Kredek\patryk_kaczynski_cpc2021-1\Laboratorium1_PracaDomowa\PatrykKaczynskiLab1ZadDom\obj\Debug\net5.0-windows\PatrykKaczynskiLab1ZadDom.AssemblyInfo.cs
+D:\Programowanie\Kredek\patryk_kaczynski_cpc2021-1\Laboratorium1_PracaDomowa\PatrykKaczynskiLab1ZadDom\obj\Debug\net5.0-windows\PatrykKaczynskiLab1ZadDom.csproj.CoreCompileInputs.cache
+D:\Programowanie\Kredek\patryk_kaczynski_cpc2021-1\Laboratorium1_PracaDomowa\PatrykKaczynskiLab1ZadDom\obj\Debug\net5.0-windows\PatrykKaczynskiLab1ZadDom.dll
+D:\Programowanie\Kredek\patryk_kaczynski_cpc2021-1\Laboratorium1_PracaDomowa\PatrykKaczynskiLab1ZadDom\obj\Debug\net5.0-windows\ref\PatrykKaczynskiLab1ZadDom.dll
+D:\Programowanie\Kredek\patryk_kaczynski_cpc2021-1\Laboratorium1_PracaDomowa\PatrykKaczynskiLab1ZadDom\obj\Debug\net5.0-windows\PatrykKaczynskiLab1ZadDom.pdb
