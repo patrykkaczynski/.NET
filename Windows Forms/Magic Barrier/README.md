@@ -14,7 +14,10 @@ The purpose of the project was to create game or simulator which enables a chang
 The program has been created in order to practise and consolidate material concerning basics of programming in C# as well as Windows Forms technology as a part of programming
 course.
 
-The application refers to iconic Gothic game (first part of Gothic), where the main character (unnamed prisoner) has been thrown inside the mining colony. Conesquently, he does everything to damage a magic barrier and get out of this place. User can select one of 4 friends of the main character who have got individual, initial bonuses. It is necessary to gather 5000 magical ore nuggets and recruit 13 magicians (6 fire magicians, 6 water magicians, 1 necromancer) in order to detonate an ore mound. Additionally, positive and negative events occur in the game which depends on time and current state of units.
+The application refers to iconic Gothic game (first part of Gothic), where the main character (unnamed prisoner) has been thrown inside the mining colony. Conesquently, he does everything to damage a magic barrier and get out of this place. 
+
+User can select one of 4 friends of the main character who have got individual, initial bonuses. It is necessary to gather 5000 magical ore nuggets and recruit 13 magicians (6 fire magicians, 6 water magicians, 1 necromancer) in order to detonate an ore mound. 
+Additionally, positive and negative events occur in the game which depends on time and current state of units.
 
 
 ## Technologies used
