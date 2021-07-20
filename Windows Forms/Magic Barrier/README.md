@@ -9,7 +9,7 @@
 
 
 ## General Information
-The purpose of the project was to create game or simulator which enables a change or resources or units depending on time and occuring events during application runtime.
+The purpose of the project was to create a game or a simulator which enables a change or resources or units depending on time and occuring events during application runtime.
 The program has been created in order to practise and consolidate material concerning basics of programming in C# as well as Windows Forms technology as a part of programming
 course.
 
