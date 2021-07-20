@@ -4,7 +4,6 @@
 ## Table of Contents
 * [General Information](#general-information)
 * [Technologies Used](#technologies-used)
-* [Features](#features)
 * [Screenshots](#screenshots)
 * [Setup](#setup)
 
@@ -24,10 +23,6 @@ Additionally, positive and negative events occur during the game. They depend on
 - C#
 - Windows Forms (.NET 5.0)
 
-## Features
-
-
-
 
 ## Screenshots
 <p align="center">
@@ -35,3 +30,9 @@ Additionally, positive and negative events occur during the game. They depend on
   <img src="./Images/s2.JPG">
   <img src="./Images/s3.JPG">
 </p>
+
+
+# Setup
+- git clone [repository] or download ZIP and unzip this file
+- double click on MagicBarrier.csproj 
+- press F5 on keyboard to run a program
