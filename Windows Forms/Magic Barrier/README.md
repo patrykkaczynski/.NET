@@ -34,5 +34,5 @@ Additionally, positive and negative events occur during the game. They depend on
 
 # Setup
 - git clone [repository] or download ZIP and unzip this file
-- double click on MagicBarrier.csproj file
+- open the project in Visual Studio
 - press F5 on keyboard to run a program
