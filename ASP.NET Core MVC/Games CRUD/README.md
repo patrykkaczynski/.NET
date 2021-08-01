@@ -1,4 +1,4 @@
-# GAMES CRUD - ASP.NET Core MVC
+# GAMES CRUD - ASP.NET Core MVC application
 
 
 ## Table of Contents
@@ -9,16 +9,15 @@
 
 
 ## General Information
-
 The project has been created in order to practise and consolidate material concerning basics of creation of applications in ASP.NET Core MVC in combination with Entity Framework.
-The program enbables CRUD (create, read, update, delete) operations for computer games. Additionally, the computer games are stored in database by using Entity Framework.
+The program enables CRUD (create, read, update, delete) operations for computer games. Additionally, the computer games are stored in database by using Entity Framework.
 
 
 ## Technologies used
 - C#
 - ASP.NET Core MVC (.NET 5.0)
 - Entity Framework
-- Mircrosoft SQL Server 2019
+- Microsoft SQL Server 2019
 
 
 ## Screenshots
