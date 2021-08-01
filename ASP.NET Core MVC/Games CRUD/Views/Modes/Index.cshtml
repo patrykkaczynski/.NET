@@ -1,0 +1,36 @@
+﻿@model IEnumerable<Mode>
+
+
+@{
+    ViewData["Title"] = "Tryby";
+}
+
+
+<div class="jumbotron">
+    <h3>Dostępne tryby gier</h3>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.Id)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.ModeName)
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var genre in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => genre.Id)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => genre.ModeName)
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

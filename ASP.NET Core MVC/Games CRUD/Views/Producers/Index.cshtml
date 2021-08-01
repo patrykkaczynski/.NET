@@ -1,0 +1,45 @@
+﻿@model IEnumerable<Producer>
+
+
+@{
+    ViewData["Title"] = "Lista producentów";
+}
+
+<p>
+    <a class="btn btn-primary fa fa-plus" asp-action="Create"> Dodaj nowego producenta</a>
+</p>
+<div class="jumbotron">
+    <h3>Producenci gier</h3>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.Id)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Name)
+                </th>
+                <th>
+
+                </th>
+            </tr>
+        </thead>
+
+        <tbody>
+            @foreach (var producer in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => producer.Id)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => producer.Name)
+                    </td>
+                    <td>
+                        @Html.ActionLink(" Usuń", "Delete", "Producers", routeValues: new { id = producer.Id }, new { @class = "btn fa fa-remove btn-danger mb-2" })
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

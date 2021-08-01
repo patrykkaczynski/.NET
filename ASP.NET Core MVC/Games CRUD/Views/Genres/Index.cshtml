@@ -1,0 +1,42 @@
+﻿@model IEnumerable<Genre>
+
+
+@{
+    ViewData["Title"] = "Lista gatunków";
+}
+
+<p>
+    <a class="btn btn-primary fa fa-plus" asp-action="Create"> Dodaj nowy gatunek</a>
+</p>
+<div class="jumbotron">
+    <h3>Gatunki gier</h3>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.Id)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.GenreName)
+                </th>
+            </tr>
+        </thead>
+
+        <tbody>
+            @foreach (var genre in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => genre.Id)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => genre.GenreName)
+                    </td>
+                    <td>
+                        @Html.ActionLink(" Usuń", "Delete", "Genres", routeValues: new { id = genre.Id }, new { @class = "btn fa fa-remove btn-danger mb-2" })
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

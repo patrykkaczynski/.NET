@@ -1,0 +1,41 @@
+﻿@model CreateGameViewModel
+
+@using (Html.BeginForm("Create", "Games", FormMethod.Post))
+{
+<div class="jumbotron">
+    <h3 class="mb-3">Dodaj grę</h3>
+    <div class="form-group">
+        @Html.LabelFor(model => model.Game.Title)
+        <div class="col-md">
+            @Html.TextBoxFor(model => model.Game.Title, new { @style = "width:400px;" })
+        </div>
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(model => model.Game.YearOfRelease)
+        <div class="col-md">
+            @Html.TextBoxFor(model => model.Game.YearOfRelease, new { @style = "width:400px;" })
+        </div>
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(model => model.Game.ProducerId)
+        <div class="col-md">
+            @Html.DropDownListFor(x => Model.Game.ProducerId, new SelectList(Model.Producers, "Id", "Name"), new { @style = "width:400px;" })
+        </div>
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(model => model.Game.GenreId)
+        <div class="col-md">
+            @Html.DropDownListFor(x => Model.Game.GenreId, new SelectList(Model.Genres, "Id", "GenreName"), new { @style = "width:400px;" })
+        </div>
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(model => model.Game.ModeId)
+        <div class="col-md">
+            @Html.DropDownListFor(x => Model.Game.ModeId, new SelectList(Model.Modes, "Id", "ModeName"), new { @style = "width:400px;" })
+        </div>
+    </div>
+
+    <input type="submit" value="Dodaj grę" class="btn btn-primary" />
+</div>
+}
+

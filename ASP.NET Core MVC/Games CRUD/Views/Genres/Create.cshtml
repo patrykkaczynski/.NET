@@ -1,0 +1,16 @@
+﻿@model Genre
+
+@using (Html.BeginForm("Create", "Genres", FormMethod.Post))
+{
+<div class="jumbotron">
+    <h3 class="mb-3">Dodaj gatunek</h3>
+    <div class="form-group">
+        @Html.LabelFor(model => model.GenreName)
+        <div class="col-md">
+            @Html.TextBoxFor(model => model.GenreName)
+        </div>
+    </div>
+    <input type="submit" value="Dodaj gatunek" class="btn btn-primary" />
+</div>
+}
+

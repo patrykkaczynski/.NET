@@ -1,0 +1,16 @@
+﻿@model Producer
+
+@using (Html.BeginForm("Create", "Producers", FormMethod.Post))
+{
+<div class="jumbotron">
+    <h3 class="mb-3">Dodaj producenta</h3>
+    <div class="form-group">
+        @Html.LabelFor(model => model.Name)
+        <div class="col-md">
+            @Html.TextBoxFor(model => model.Name)
+        </div>
+    </div>
+    <input type="submit" value="Dodaj producenta" class="btn btn-primary" />
+</div>
+}
+

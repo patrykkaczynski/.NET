@@ -1,0 +1,29 @@
+﻿@model Producer
+
+@using (Html.BeginForm("Delete", "Producers", FormMethod.Post))
+{
+<div class="jumbotron">
+    <h3 class="mb-3">Usuń producenta</h3>
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+        <dt class="col-sm-10">
+            @Html.DisplayFor(model => model.Name)
+        </dt>
+        <dt class="col-sm-12">
+            Zostaną również usunięte poniższe gry:
+        </dt>
+        @foreach (var item in Model.Games)
+        {
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => item.Title)
+            </dt>
+            <dt class="col-sm-10">
+                @Html.DisplayFor(model => item.Title)
+            </dt>
+        }
+    </dl>
+    <input type="submit" value="Usuń" class="btn btn-danger" />
+</div>
+}

@@ -1,0 +1,42 @@
+﻿@model IEnumerable<Game>
+
+@{
+    ViewData["Title"] = "Lista gier";
+}
+<p>
+    <a class="btn btn-primary fa fa-plus" asp-action="Create"> Dodaj nową grę</a>
+</p>
+<div class="jumbotron">
+    <h3>Lista gier</h3>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.Title)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.YearOfRelease)
+                </th>
+            </tr>
+        </thead>
+
+        <tbody>
+            @foreach (var game in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => game.Title)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => game.YearOfRelease)
+                    </td>
+                    <td>
+                        @Html.ActionLink(" Edytuj", "Edit", "Games", routeValues: new { id = game.Id }, new { @class = "btn fa fa-edit btn-info mb-2" })
+                        @Html.ActionLink(" Szczegóły", "Details", routeValues: new { id = game.Id }, new { @class = "btn fa fa-info-circle btn-warning mb-2" })
+                        @Html.ActionLink(" Usuń", "Delete", "Games", routeValues: new { id = game.Id }, new { @class = "btn fa fa-remove btn-danger mb-2" })
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
