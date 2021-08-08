@@ -1,4 +1,4 @@
-# GAMES CRUD - ASP.NET Core MVC application
+# Games CRUD - ASP.NET Core MVC application
 
 
 ## Table of Contents
@@ -9,15 +9,24 @@
 
 
 ## General Information
-The project has been created in order to practise and consolidate material concerning basics of creation of applications in ASP.NET Core MVC in combination with Entity Framework.
-The program enables CRUD (create, read, update, delete) operations for computer games. Additionally, the computer games are stored in database by using Entity Framework.
+The project contains basic information about Counter-Strike: Global Offensive game. User can find out about basic rules of the game such as gameplay, conflict sides, the most popular tournament maps as well as ranks. 
+The selection of particular rank, tournament map and conflict side in the Start tab determines a view and a content of subsequent tabs.      
 
+
+The website has been created in order to practise and consolidate material concerning basics of creation of websites by technologies such as HTML, CSS and JavaScript
+as a part of programming course. The requirements which had to be met for the project:
+- individual files for CSS style sheets and JS scripts,
+- minimum of 3 HTML files and using href attribute which navigates to subpage,   
+- using setTimeout() and setInterval() methods,
+- styling by classes, tags and id,
+- adding of EventListeners in JavaScript,
+- communication between HTML pages,
+- using the Bootstrap framework.
 
 ## Technologies used
 - C#
-- ASP.NET Core MVC (.NET 5.0)
+- ASP.NET Core MVC
 - Entity Framework
-- Microsoft SQL Server 2019
 
 
 ## Screenshots
@@ -30,5 +39,4 @@ The program enables CRUD (create, read, update, delete) operations for computer 
 
 # Setup
 - git clone [repository] or download ZIP and unzip this file
-- open the project in Visual Studio
-- press F5 on keyboard to run a program
+- double click on MainPage html file to open a website
