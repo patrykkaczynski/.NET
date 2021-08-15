@@ -1,0 +1,53 @@
+﻿@model PatrykKaczynskiLab4ZadDom.Models.TaskViewModel
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1 class="headline">Szczegóły zgłoszenia</h1>
+
+<div>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-4">
+            <label class="control-label">Data i godzina utworzenia zgłoszenia</label>
+        </dt>
+        <dd class="col-sm-8">
+            @Html.DisplayFor(model => model.timeCreation)
+        </dd>
+        <dt class="col-sm-4">
+            <label class="control-label">Data i godzina ostatniej edycji zgłoszenia</label>
+        </dt>
+        <dd class="col-sm-8">
+            @Html.DisplayFor(model => model.timeEdition)
+        </dd>
+        <dt class="col-sm-4">
+            @Html.DisplayNameFor(model => model.ApplicationName)
+        </dt>
+        <dd class="col-sm-8">
+            @Html.DisplayFor(model => model.ApplicationName)
+        </dd>
+        <dt class="col-sm-4">
+            @Html.DisplayNameFor(model => model.Title)
+        </dt>
+        <dd class="col-sm-8">
+            @Html.DisplayFor(model => model.Title)
+        </dd>
+        <dt class="col-sm-4">
+            @Html.DisplayNameFor(model => model.Priority)
+        </dt>
+        <dd class="col-sm-8">
+            @Html.DisplayFor(model => model.Priority)
+        </dd>
+        <dt class="col-sm-4">
+            @Html.DisplayNameFor(model => model.Description)
+        </dt>
+        <dd class="col-sm-8">
+            @Html.DisplayFor(model => model.Description)
+        </dd>
+    </dl>
+</div>
+<div>
+    @Html.ActionLink(" Edytuj", "Edit", new {id = Model.TaskId}, new { @class = "btn fa fa-edit btn-info" })
+    <a class="btn btn-dark fa fa-arrow-circle-left" asp-action="Index"> Wróć do listy zgłoszeń</a>
+</div>

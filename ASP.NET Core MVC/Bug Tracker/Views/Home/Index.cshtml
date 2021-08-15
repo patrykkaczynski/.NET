@@ -1,0 +1,53 @@
+﻿@model IEnumerable<PatrykKaczynskiLab4ZadDom.Models.TaskViewModel>
+
+@{
+    ViewData["Title"] = "Index";
+}
+<h1 class="headline">Lista zgłoszeń</h1>
+
+<p>
+    <a class="btn btn-primary fa fa-plus" asp-action="Create"> Dodaj nowe zgłoszenie</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                <label class="control-label">Nazwa aplikacji</label>
+            </th>
+            <th>
+                <label class="control-label">Tytuł</label>
+            </th>
+            <th>
+                <label class="control-label">Priorytet</label>
+            </th>
+            <th>
+                <label class="control-label">Data i godzina utworzenia zgłoszenia</label>
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.ApplicationName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Title)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Priority)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.timeCreation)
+            </td>
+            <td>
+                @Html.ActionLink(" Gotowe", "Done", new { id = item.TaskId }, new {@class = "btn fa fa-check btn-success" })
+                @Html.ActionLink(" Edytuj", "Edit", new { id = item.TaskId }, new { @class = "btn fa fa-edit btn-info" })
+                @Html.ActionLink(" Szczegóły", "Details", new { id = item.TaskId }, new { @class = "btn fa fa-info-circle btn-warning" })
+                @Html.ActionLink(" Usuń", "Delete", new { id = item.TaskId }, new { @class = "btn fa fa-remove btn-danger" })
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
