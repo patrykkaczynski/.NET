@@ -9,23 +9,30 @@
 
 
 ## General Information
-The project has been created in order to practise and consolidate material concerning basics of creation of applications in ASP.NET Core MVC in combination with Entity Framework.
-The program enbables CRUD (create, read, update, delete) operations for computer games. Additionally, the computer games are stored in database by using Entity Framework.
+
 
 
 ## Technologies used
 - C#
-- ASP.NET Core Web API (.NET 5.0)
+- ASP.NET Core Web API(.NET 5.0)
 - Swagger
 
 
 ## Screenshots
+<h3>Available methods in Web API: </h3>
 <p align="center">
-  <img src="./Screenshots/1.PNG">
-  <img src="./Screenshots/2.PNG">
-  <img src="./Screenshots/3.PNG">
-  <img src="./Screenshots/4.PNG">
-  <img src="./Screenshots/5.PNG">
+<ul>
+	<li> <h3> GET (ALL) </h3> </li>
+  	<img src="./Screenshots/1.PNG">
+    	<li> <h3> PUT </h3> </li>
+  	<img src="./Screenshots/2.PNG">
+    	<li> <h3> GET (SPECIFIC ID) </h3> </li>
+  	<img src="./Screenshots/3.PNG">
+	<li> <h3> POST </h3> </li>
+  	<img src="./Screenshots/4.PNG">
+	<li> <h3> DELETE </h3> </li>
+  	<img src="./Screenshots/5.PNG">
+</ul>
 </p>
 
 
