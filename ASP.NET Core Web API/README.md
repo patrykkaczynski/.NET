@@ -15,9 +15,8 @@ The program enbables CRUD (create, read, update, delete) operations for computer
 
 ## Technologies used
 - C#
-- ASP.NET Core MVC (.NET 5.0)
-- Entity Framework
-- Mircrosoft SQL Server 2019
+- ASP.NET Core Web API (.NET 5.0)
+- Swagger
 
 
 ## Screenshots
@@ -25,6 +24,8 @@ The program enbables CRUD (create, read, update, delete) operations for computer
   <img src="./Screenshots/1.PNG">
   <img src="./Screenshots/2.PNG">
   <img src="./Screenshots/3.PNG">
+  <img src="./Screenshots/4.PNG">
+  <img src="./Screenshots/5.PNG">
 </p>
 
 
